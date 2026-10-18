@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>What Can JavaScript Do?</title>
+<title>Addition sampler</title>
+<script>
+function add() {
+let a = document.getElementById("fn"),value;
+let b = document.getElementById("sn"),value;
+let c = a + b;
+
+}
+  
+</script>
   
 </head>
 <body>
 
-<h3>Blah blah blah</h3>
-
+<h3>Add your numbers</h3>
+<p>First number? <input id="fn"> <br>
+Second number? <input id="sn"> <br>
+<button onclick="add()"> Add the numbers </button>
+  
+</p>
+<p>Your answer is <span id="ans">_________</span></p>
+  
 </body>
 </html>
